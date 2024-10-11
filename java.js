@@ -11,3 +11,10 @@ function validate(){
         true;
     }
 }
+function validate() {
+    const submitBtn = document.getElementById("submitBtn");
+    submitBtn.textContent = "Message send successfully";
+    submitBtn.disabled = true;
+    submitBtn.style.backgroundColor = "black";
+    return true;
+}
